@@ -23,3 +23,10 @@ I also caught a bug: writing `expected_salary = 100,000.0` creates a **tuple**, 
 - Control flow using if / elif / else
 - Comparison and logical operators
 - Basic decision-making logic
+
+#### Reflection
+Today I focused on Python control flow — the ability to make decisions in code. I practiced using comparison operators (`==`, `!=`, `>`, `<`, `>=`, `<=`) and combined them with `if`, `elif`, and `else` statements to guide program behavior. Adding logical operators (`and`, `or`, `not`) helped me build more complex rules.
+
+I extended my script with a `goal` and `commitment_level` variable, which made the exercise feel like real data validation. For example, checking if commitment is high or needs improvement mirrors how data engineers enforce rules in pipelines. This showed me that control flow is not just about syntax, but about modeling real-world decisions in code.
+
+Key insight: **Control flow is the bridge between raw data and meaningful outcomes.** By setting conditions, I can ensure that my programs respond intelligently to different scenarios.
